@@ -18,7 +18,7 @@ var app = builder.Build();
 // CORS'u aktif et
 app.UseCors("AllowAll");
 
-// Endpoint tanımlama
+// Endpoint tanımlama   
 app.MapGet("/products", () =>
 {
  var products = new List<ProductModel>
@@ -32,7 +32,7 @@ app.MapGet("/products", () =>
     new ProductModel { Id = 7, Title = "bacon overflow", Category = "breakfast", Price = 8.99m, Img = "./images/item-7.jpeg", Desc = "carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird" },
     new ProductModel { Id = 8, Title = "american classic", Category = "lunch", Price = 12.99m, Img = "./images/item-8.jpeg", Desc = "on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut" },
     new ProductModel { Id = 9, Title = "quarantine buddy", Category = "shakes", Price = 16.99m, Img = "./images/item-9.jpeg", Desc = "skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing." },
-     new ProductModel { Id = 10, Title = "quarantine buddy", Category = "shakes", Price = 16.99m, Img = "./images/item-9.jpeg", Desc = "skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing." }
+     new ProductModel { Id = 10, Title = "quarantine buddy x 2", Category = "shakes", Price = 30.99m, Img = "./images/item-9.jpeg", Desc = "loremipsum dsffas ejsua lf bs ufmrbs vifşjynsyrtgstrhköy sbee sydf yetahu sgsgswt ağşçbthjaiş übyziyarek, didceybuldak" }
     };
 
     return Results.Ok(products);
