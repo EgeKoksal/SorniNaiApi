@@ -44,5 +44,10 @@ app.MapPost("/orders", ([FromBody] List<CartItem> cartItems) =>
     return Results.Ok("Order received");
 });
 
-
+ // TODO breakpoint nedir, csharp içerisinde yorum satırınde todo list todo list nedir, birde cors policy nedir
+ 
+ // debugging yöntemi içerisinde bir araçtır aslında brakpoint ve bize kodun doğru performanslı ve düzgün yazılmasında yardımcı olur
+ // frombody bir body elementinin içindeki verileri belirli bir parametreye bağlanmasını sağlar  Yani, istemci (client) tarafından gönderilen HTTP POST isteğinin gövdesindeki JSON gibi yapılandırılmış veriler, bu parametreye otomatik olarak dönüştürülür. 
+ // CORS (Cross-Origin Resource Sharing), şimdi şöyyle, iki tarayıcı güvenlik yüzünden birbirleriyle api, dosya paylaşmaz sayfanın kendi alanı dışındakilere de  cross-origin denir. mesela localhost:3000 ile localhost:5000 birbiriyle dosya paylaşmaz ama sen CORS kullanarak bunu paylaşılabilir kılıyosun çünkü CORS un bunlara müsade eden kendi politikaları var. 
+ //
 app.Run();
