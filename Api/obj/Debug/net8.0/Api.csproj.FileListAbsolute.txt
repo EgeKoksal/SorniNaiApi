@@ -99,3 +99,4 @@ C:\Users\Rise Technology\Desktop\SorniNaiApi\Api\obj\Debug\net8.0\scopedcss\bund
 C:\Users\Rise Technology\Desktop\SorniNaiApi\Api\obj\Debug\net8.0\Api.csproj.Up2Date
 C:\Users\Rise Technology\Desktop\SorniNaiApi\Api\obj\Debug\net8.0\Api.genruntimeconfig.cache
 C:\Users\Rise Technology\Desktop\SorniNaiApi\Api\obj\Debug\net8.0\ref\Api.dll
+C:\Users\egeko\Desktop\SorniNaiApi\Api\obj\Debug\net8.0\Api.sourcelink.json
